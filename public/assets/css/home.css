@@ -1,0 +1,323 @@
+body{
+    box-sizing: border-box;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    justify-content: center;
+    flex-direction: row;
+    height: 100vh;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+}
+
+.navbar{
+    background-color: #020072 !important;
+}
+
+.container-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: none;
+    z-index: 2;
+}
+
+.col-icons{
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    text-align: center;
+    color:#008cff;
+    align-items: center;
+    margin:2rem 0;
+}
+
+.col-icons h1{
+    font-weight: bold;
+    padding: 1rem;
+}
+
+nav a, li{
+    color:#fff !important;
+}
+
+a:hover, li:hover{
+    color:#cecdff !important;
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 2rem;
+    font-style: normal;
+    color: #ffff;
+}
+
+.logo:hover{
+    color: #d0cfff !important;
+}
+
+.nav-itens{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-weight: 500;
+}
+
+.dropdown-item{
+    color:#020072 !important;
+    font-weight: 600;
+}
+.dropdown-item:hover{
+    color:#000000 !important;
+}
+
+.text-info p{
+    color: #fff;
+}
+
+.invitation{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-image: linear-gradient(rgba(14, 14, 14, 0.692), rgba(0, 81, 255, 0.712)), url('/imgs/img3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100vh;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.invitation button{
+    color: #fff;
+    font-weight: 700;
+    border-radius: 3rem;
+    padding: .7rem 1.5rem;
+}
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: #fff;
+    overflow: hidden;
+}
+
+/* Animação do texto */
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%); /* Inicia totalmente à esquerda */
+        opacity: 0; /* Invisível no início */
+    }
+    50% {
+        opacity: 0.5; /* Gradualmente visível */
+    }
+    100% {
+        transform: translateX(0); /* Posição final */
+        opacity: 1;
+    }
+}
+
+.infos h1{
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    animation: slideInFromLeft 1.5s ease-out forwards;
+}
+
+.infos span{
+    color:#12c8ff;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+@keyframes highlightSlideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.infos span {
+    color: #12c8ff;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    display: inline-block;
+    animation: identifier 4s infinite alternate;
+}
+
+@keyframes identifier {
+    0% {
+        color:#12c8ff;
+     }
+     50%{
+         color: #008fe7;
+     }
+     100% {
+        color:#052bff;
+     }
+}
+
+.invict{
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom:5px solid #020072;
+}
+
+.penultimo-rodape{
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    background-color: #020072;
+}
+
+.apresentacao{
+    padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.apresentacao span{
+    color:#35a4ff;
+    font-weight: bold;
+}
+
+.apresentacao h1{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #008cff;
+}
+
+.apresentacao p{
+    margin-top: 1rem;
+    color:#fff;
+}
+
+.icon{
+    display: flex;    
+    justify-content: center;
+    padding: 1.5rem;
+    background-color: #008cff;
+    border-radius: 100%;
+    color: #fff;
+    width: 3.6rem;
+}
+
+.icon-ifood,
+.icon-mercados,
+.icon-lojas{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.icon-ifood,
+.icon-mercados{
+    padding-right: 1rem;
+}
+
+.text{
+    margin-bottom:2rem;
+}
+
+.text h2, h3{
+    line-height: 1;
+    padding: 0;
+}
+
+.col-icons span{
+    margin-left: 1rem;
+}
+
+.apresentacao h1{
+    line-height: 1;
+}
+
+.img{
+    border-radius: 1rem;
+    padding: 10px;
+}
+
+video{
+    border-radius: 1rem;
+    background-color: #020072;
+}
+
+.opcoesPgt{
+    align-items:center;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    position: relative;
+    border:none;
+    width: 200px;
+    margin-top: 1rem;
+}
+
+.opcoesPgt p{
+    text-align: center;
+}
+
+.pgtSlide{
+    display: flex;
+    flex-direction:row;
+    border: 1px solid #006eb3 !important;
+    border-radius: 2rem;
+    color: #fff;
+}
+
+.planos{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.planos h2{
+    color: #fff;
+}
+
+.card{
+    border-radius: 10px;
+    width: 1rem;
+    margin: .7rem .5rem;
+    border: #fff 2px solid;
+}
+
+.pgtSlide button {
+    position: relative;
+    z-index: 1;
+    border:none;
+    color: #fff;
+    width: 50%;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.pgtSlide button.active {
+    color: #fff;
+}
