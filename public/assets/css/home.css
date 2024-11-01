@@ -11,6 +11,10 @@ body{
     overflow-x: hidden;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .col-icons{
     display: flex;
     padding: 1rem;

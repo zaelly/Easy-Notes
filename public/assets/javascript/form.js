@@ -204,4 +204,11 @@ clickBtn1();
 btn1.addEventListener("click", clickBtn1)
 btn2.addEventListener("click", clickBtn2)
 
-
+window.onload = function() {
+    if (window.location.hash) {
+        const target = document.querySelector(window.location.hash);
+        if (target) {
+            target.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
+};

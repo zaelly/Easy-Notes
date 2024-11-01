@@ -1,16 +1,5 @@
-body{
-    box-sizing: border-box;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-    flex-direction: row;
-    height: 100vh;
-    flex-wrap: wrap;
+nav{
     overflow-x: hidden;
-}
-
-.navbar{
     background-color: #008cff !important;
 }
 
@@ -20,7 +9,6 @@ body{
     left: 0;
     width: 100%;
     display: flex;
-    align-items: center;
     border: none;
     z-index: 2;
 }
@@ -34,21 +22,14 @@ a:hover, li:hover{
     color:#cecdff !important;
 }
 
-.logo{
-    font-weight: 700;
-    font-size: 2rem;
-    font-style: normal;
-    color: #ffff;
-}
-
 .logo:hover{
     color: #d0cfff !important;
 }
 
 .nav-itens{
-    margin-left: 3rem;
-    margin-right: 3rem;
-    font-weight: 500;
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+    font-weight: 500 !important;
 }
 
 .dropdown-item{

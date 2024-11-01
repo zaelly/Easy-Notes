@@ -37,7 +37,7 @@
             <div class="text-center col overlay-text invitation">
                 <h1 class="logo">Nota Fácil</h1>
                 <p class="text-info">Inicie um teste agora mesmo!</p>
-                <button type="button" class="btn btn-info">COMECE AGORA MESMO</button>
+                <button type="button" class="btn btn-info" onclick="window.location.href ='<?= base_url('comece_ja') ?>'">COMECE AGORA MESMO</button>
                 <!-- Coloque aqui o vídeo que introduz o sistema -->
             </div>
             <div id="activeAnimationActive" class="infos col">
@@ -99,7 +99,7 @@
                     <span>BARES E RESTAURANTES</span>
                 </div>
         </div>
-        <div class="container-fluid planos">
+        <div class="container-fluid planos" id="ponto-planos">
             <div class="text-center">
                 <h2>Conheça nossos planos</h2>
                 <div class="pgtSlide">
@@ -190,12 +190,13 @@
                 <h3>Comece já ou faça um teste!</h3>
             </div>
             <div class="btn">
-                <button type="button" class="btn btn-outline-light btn-lg">Comece já!</button>
+                <button type="button" id="comece-ja" onclick="window.location.href ='<?= base_url('comece_ja') ?>'" class="btn btn-outline-light btn-lg">
+                    Comece já!
+                </button>
             </div>
         </div>
     </div>
     <!-- inclui o rodapé -->
     <?= view('./footer/index.php') ?>
-
 </body>
 </html>
