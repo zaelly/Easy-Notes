@@ -3,7 +3,7 @@
     
 <?= view('./navbar/index.php') ?>
 
-<div class="container mt-5 container-contato" style="display:none;">
+    <div class="container mt-5 container-contato" style="display:none;">
         <div class="row">
            <h1>Entre em contato conosco</h1>
 

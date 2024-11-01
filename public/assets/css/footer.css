@@ -1,6 +1,7 @@
 body{
     min-height: 100vh;
     margin: 0;
+    bottom: 0;
 }
 
 .copy{
@@ -16,8 +17,8 @@ body{
 }
 
 footer{
+    width: 100%;
     padding: 1rem;
-    margin: 0;
     color:#999999;    
     background-color: #202020 !important;
 }

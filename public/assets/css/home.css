@@ -10,7 +10,9 @@ body{
     flex-wrap: wrap;
     overflow-x: hidden;
 }
-
+main{
+    flex: 1; 
+}
 html {
     scroll-behavior: smooth;
 }

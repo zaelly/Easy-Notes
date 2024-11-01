@@ -31,7 +31,7 @@
 <body>
     <!-- Inclui a navbar -->
     <?= view('./navbar/index.php') ?>
-
+<main>
     <div class="container-home">
         <div class="invict row">
             <div class="text-center col overlay-text invitation">
@@ -196,6 +196,7 @@
             </div>
         </div>
     </div>
+</main>
     <!-- inclui o rodapé -->
     <?= view('./footer/index.php') ?>
 </body>

@@ -11,6 +11,9 @@
 .container{
     top: 5rem;
 }
+main{
+    flex: 1; 
+}
 
 .container-flex{
     top: 4rem !important;
