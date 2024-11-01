@@ -200,7 +200,6 @@ function clickBtn2(){
 };
 
 clickBtn1();
-clickBtn2();
 
 btn1.addEventListener("click", clickBtn1)
 btn2.addEventListener("click", clickBtn2)

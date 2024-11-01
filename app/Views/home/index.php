@@ -40,7 +40,7 @@
                 <button type="button" class="btn btn-info">COMECE AGORA MESMO</button>
                 <!-- Coloque aqui o vídeo que introduz o sistema -->
             </div>
-            <div class="infos col">
+            <div id="activeAnimationActive" class="infos col">
                 <div class="col-lg-7">
                     <h1>
                         Descubra o sistema de gestão que <span>automatiza as operações</span> do seu negócio, 
@@ -102,29 +102,83 @@
         <div class="container-fluid planos">
             <div class="text-center">
                 <h2>Conheça nossos planos</h2>
+                <div class="pgtSlide">
+                    <button type="submit" id="btn1">Mensal</button>
+                    <button type="submit" id="btn2">Anual</button>
+                </div>
+                <div class="container align-items-center" id="infoSlideMensal">
+                    <div class="row">
+                        <div class="cards" style="width: 10em;">
+                            <div class="card-body">
+                                <h5 class="card-title">Módulo Básico</h5>
+                                <span>
+                                    <p>Dashboard Completo</p>
+                                </span>
+                                <span>
+                                    <p>Controle de estoque</p>
+                                </span>
+                                <span>
+                                    <p>Controle de vendas</p>
+                                </span>
+                                <span>
+                                    <p>Controle de finanças</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="cards" style="width: 10em;">
+                            <div class="card-body">
+                                <h5 class="card-title">NFC</h5>
+                                <span>
+                                    <p>Dashboard Completo</p>
+                                </span>
+                                <span>
+                                    <p>Controle de estoque</p>
+                                </span>
+                                <span>
+                                    <p>Controle de vendas</p>
+                                </span>
+                                <span>
+                                    <p>Controle de finanças</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container align-items-start" id="infoSlideAnual">
                 <div class="row">
-                    <div class="card" style="width: 10em;">
-                        <div class="card-body">
-                            <h5 class="card-title">Módulo Básico</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="cards" style="width: 10em;">
+                            <div class="card-body">
+                                <h5 class="card-title">Módulo Básico</h5>
+                                <span>
+                                    <p>Dashboard Completo</p>
+                                </span>
+                                <span>
+                                    <p>Controle de estoque</p>
+                                </span>
+                                <span>
+                                    <p>Controle de vendas</p>
+                                </span>
+                                <span>
+                                    <p>Controle de finanças</p>
+                                </span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card" style="width: 10em;">
-                        <div class="card-body">
-                            <h5 class="card-title">NFC</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 10em;">
-                        <div class="card-body">
-                            <h5 class="card-title">NFCe</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 10em;">
-                        <div class="card-body">
-                            <h5 class="card-title">Todos os Módulos</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="cards" style="width: 10em;">
+                            <div class="card-body">
+                                <h5 class="card-title">NFCe</h5>
+                                <span>
+                                    <p>Dashboard Completo</p>
+                                </span>
+                                <span>
+                                    <p>Controle de estoque</p>
+                                </span>
+                                <span>
+                                    <p>Controle de vendas</p>
+                                </span>
+                                <span>
+                                    <p>Controle de finanças</p>
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -140,5 +194,8 @@
             </div>
         </div>
     </div>
+    <!-- inclui o rodapé -->
+    <?= view('./footer/index.php') ?>
+
 </body>
 </html>

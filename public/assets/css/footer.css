@@ -1,0 +1,48 @@
+body{
+    min-height: 100vh;
+    margin: 0;
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    padding: auto 0;
+}
+
+.copy p{
+    margin-bottom: 0 !important;
+}
+
+footer{
+    padding: 1rem;
+    margin: 0;
+    color:#999999;    
+    background-color: #202020 !important;
+}
+
+.columns{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icons-footer {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.icon-footer{
+    margin-top: 5px;
+}
+
+.icons-footer a{
+    color: #3d3d3d;
+    text-decoration: none;
+}
+
+.main-content {
+    flex: 1;
+}

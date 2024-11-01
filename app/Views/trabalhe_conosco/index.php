@@ -1,3 +1,5 @@
+<?= view('./navbar/index.php') ?>
+
 <div class="container-fluid" id="container-work">
     <div class="row">
         <h1>Trabalhe Conosco</h1>
@@ -12,5 +14,6 @@
         </div>
     </div>
 </div>
+<?= view('./footer/index.php') ?>
 
 <script src="home.js"></script> 

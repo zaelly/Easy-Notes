@@ -1,11 +1,10 @@
 <?php 
-
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
 
-class TrabalheConosco extends BaseController{
+class ContatoController extends BaseController{
     public function index(){
-        return view('trabalhe_conosco/index');
+        return view('/contato/index');
     }
 }

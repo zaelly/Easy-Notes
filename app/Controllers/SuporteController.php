@@ -3,8 +3,8 @@
 
  use App\Controllers\BaseController;
 
- class Suporte extends BaseController{
+ class SuporteController extends BaseController{
     public function index(){
-        return view('suporte/index');
+        return view('/suporte/index');
     }
  }
