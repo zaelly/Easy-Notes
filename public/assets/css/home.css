@@ -91,7 +91,24 @@ html {
     font-size: 2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 700;
-    animation: slideInFromLeft 15s ease-in-out infinite;
+    animation: slideInFromLeft 11s ease-in-out infinite;
+}
+
+.text-animation{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+@media (max-width:1366px) {
+    input[type="password"]{
+        width: 22rem;
+    }
+}
+@media (min-width:1367px) {
+    input[type="password"]{
+        width: 26rem;
+    }
 }
 
 .infos span {
@@ -106,12 +123,15 @@ html {
 @keyframes identifier {
     0% {
         color: #009dff;
+        border-color: #0070b6;
      }
      50%{
         color:#05f7ffef;
+        border-color:#05f7ffef;
      }
      100% {
         color:#12c8ff;
+        border-color:#12c8ff;
      }
 }
 
@@ -121,6 +141,7 @@ html {
     flex-direction: row;
     flex-wrap: wrap;
     border-bottom:5px solid #020072;
+    animation: identifier 8s infinite alternate;
 }
 
 .penultimo-rodape{
@@ -139,14 +160,14 @@ html {
 }
 
 .apresentacao span{
-    color:#35a4ff;
+    color:#00d9ff;
     font-weight: bold;
 }
 
 .apresentacao h1{
     font-size: 2rem;
     font-weight: bold;
-    color: #008cff;
+    color: #00d9ff;
 }
 
 .apresentacao p{
@@ -190,6 +211,8 @@ html {
 
 .col-icons span{
     margin-left: 1rem;
+    display: flex;
+    align-items: center;
 }
 
 .apresentacao h1{
@@ -209,7 +232,7 @@ video{
 .pgtSlide{
     display: flex;
     flex-direction:row;
-    border: 1px solid #006eb3 !important;
+    border: 1px solid #008cff !important;
     border-radius: 2rem;
     color: #fff;
 }
@@ -254,6 +277,16 @@ video{
     color: #fff;
 }
 
+.icon-venda svg,
+.icon-emissao svg,
+.icon-receipt svg,
+.icon-boxes svg,
+.icon-dollar svg,
+.icon-calendar svg {
+    width: 2rem !important;
+    text-align:center;
+}
+
 .card{
     border-radius: 10px;
     width: 1rem;
@@ -280,4 +313,115 @@ video{
 
 .cards{
     color: #fff;
+}
+
+.gestao-container{
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.gestao-content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#infoSlideMensal .card-text, 
+#infoSlideMensal .card-title{
+    text-align: center;
+}
+
+.card{
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: #daf0fd;
+}
+.card{
+    border-radius: 10px;
+    width: 1rem;
+    cursor: pointer;
+    margin: .7rem .5rem;
+    border: #fff 2px solid;
+}
+
+.pgtSlide button {
+    position: relative;
+    z-index: 1;
+    border:none;
+    color: #fff;
+    width: 50%;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.pgtSlide button.active {
+    color: #fff;
+}
+
+.cards{
+    color: #fff;
+}
+
+.gestao-container{
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.gestao-container .card-text, 
+.gestao-container .card-title{
+    text-align: left;
+} 
+
+.icon-venda,
+.icon-emissao,
+.icon-receipt,
+.icon-boxes,
+.icon-dollar,
+.icon-calendar{
+    display: flex;
+    margin-left: 0;
+}
+
+.icon-venda svg, 
+.icon-emissao svg, 
+.icon-receipt svg, 
+.icon-boxes svg, 
+.icon-dollar svg, 
+.icon-calendar svg {
+    margin-top: -.5rem;
+    margin-right: 1rem;
+    margin-left: -1rem;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.gestao-container{
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.gestao-content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.card:hover{
+    background-color: #daf0fd;
 }

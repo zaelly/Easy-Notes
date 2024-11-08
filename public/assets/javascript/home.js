@@ -61,3 +61,21 @@ window.onload = function() {
         }
     }
 };
+
+const texts = [
+    `<h1>Descubra o sistema de gestão que <span>automatiza as operações</span> do seu negócio, 
+    liberando seu tempo para <span>focar no crescimento</span> e no que realmente importa!</h1>`,
+    `<h1>Com ferramentas completas e <span>integração inteligente</span> Simplifique processos e 
+    maximize resultados!</h1>`
+]
+
+let index = 0;
+const text_animation = document.querySelector(".text-animation");
+
+function loopAnimation(){
+    text_animation.innerHTML = texts[index];
+    index = (index + 1) % texts.length;
+}
+
+setInterval(loopAnimation, 11000);
+loopAnimation();

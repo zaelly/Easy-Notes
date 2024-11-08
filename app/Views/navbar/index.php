@@ -35,16 +35,20 @@
                 <li class="nav-item">
                     <a class="nav-link" id="comecar" href="<?= site_url('comece_ja') ?>">Começe já!</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" id="trabalhe-conosco" href="<?= site_url('trabalhe_conosco') ?>">Trabalhe conosco</a>
-                </li>
+                </li> -->
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Fale Conosco
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#" id="<?= site_url('contato') ?>">Contato</a></li>
-                    <li><a class="dropdown-item" href="#" id="<?= site_url('suporte') ?>">Suporte</a></li>
+                    <li>
+                        <a class="dropdown-item" href="<?= site_url('contato') ?>" id="contato">Contato</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="<?= site_url('suporte') ?>" id="suporte">Suporte</a>
+                    </li>
                 </ul>
                 </li>
             </ul>

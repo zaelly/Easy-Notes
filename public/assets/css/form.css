@@ -314,9 +314,17 @@ button[type="submit"]{
     pointer-events: none; 
 }
 
-input[type="password"]{
-    width: 22rem;
+@media (max-width:1366px) {
+    input[type="password"]{
+        width: 22rem;
+    }
 }
+@media (min-width:1367px) {
+    input[type="password"]{
+        width: 26rem;
+    }
+}
+
 .cupomInput::placeholder{
     text-transform: uppercase;
 }

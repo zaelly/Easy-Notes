@@ -10,8 +10,8 @@ body{
     overflow-x: hidden;
 }
 
-.navbar{
-    background-color: #008cff !important;
+nav{
+    background-color: #00d9ff !important;
 }
 
 .container-header{
@@ -36,7 +36,6 @@ a:hover, li:hover{
 
 .logo{
     font-weight: 700;
-    font-size: 2rem;
     font-style: normal;
     color: #ffff;
 }
@@ -46,8 +45,8 @@ a:hover, li:hover{
 }
 
 .nav-itens{
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 3rem !important;
+    margin-right: 3rem !important;
     font-weight: 500;
 }
 

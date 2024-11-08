@@ -21,9 +21,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/brands.min.js" integrity="sha512-N5K6sQXjzT79tR16zvBu7B0AqvYtHKvk3+eKuQWoVNQDGU5kR9W8OP3CTYtm3vVM2EtObrmtm0Jup17F718OyA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/brands.min.css" integrity="sha512-EJp8vMVhYl7tBFE2rgNGb//drnr1+6XKMvTyamMS34YwOEFohhWkGq13tPWnK0FbjSS6D8YoA3n3bZmb3KiUYA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/regular.min.css" integrity="sha512-j+P0XpTXw+hDTK64xqC/cjv62cf629/IR4/0bokmich7J8XdVlWT40+1M/Z58rCQ4F+3QoJIfzh6Ui6TTIP6WQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
     <link rel="stylesheet" href="<?= base_url('theme/plugins/icheck-bootstrap/icheck-bootstrap.css') ?>">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -42,12 +43,9 @@
             </div>
             <div id="activeAnimationActive" class="infos col">
                 <div class="col-lg-7">
-                    <h1>
-                        Descubra o sistema de gestão que <span>automatiza as operações</span> do seu negócio, 
-                        liberando seu tempo para <span>focar no crescimento</span> e no que realmente importa! 
-                        Com ferramentas completas e <span>integração inteligente</span>, simplifique processos e 
-                        maximize resultados!
-                    </h1>
+                    <div class="text-animation">
+                       
+                    </div>
                 </div>
             </div>
         </div>
@@ -98,6 +96,66 @@
                     </div>
                     <span>BARES E RESTAURANTES</span>
                 </div>
+            <div class="container-fluid row gestao-container">
+                <h1>Conheça o que nosso software de gestão
+                pode fazer pela sua empresa</h1>
+                <div class="row col-lg-8 gestao-content">
+                    <div class="card" style="width: 19rem;">
+                        <div class="card-body">
+                            <span class="icon-venda">
+                                <i class="fa-solid fa-cash-register"></i>
+                                <h5 class="card-title">Vendas</h5>
+                            </span>
+                            <p class="card-text">Venda pelo PDV em menos de 1 minuto, monitore as vendas em tempo real, realize orçamentos e acompanhe o histórico de clientes.</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 19rem;">
+                        <div class="card-body">
+                            <span class="icon-emissao">                            
+                                <i class="fa-solid fa-receipt"></i>
+                                <h5 class="card-title">Emissão de Notas Fiscais</h5>
+                            </span>
+                            <p class="card-text">Emita notas fiscais (NF-e, NFC-e) de forma rápida e prática, com armazenamento seguro e simplificado.</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 19rem;">
+                        <div class="card-body">
+                            <span class="icon-receipt">
+                                <i class="fa-solid fa-file-invoice"></i>
+                                <h5 class="card-title">Relatórios Detalhados</h5>
+                            </span>
+                            <p class="card-text">Acesse relatórios financeiros, cadastros, vendas, estoque e muito mais para uma visão completa do seu negócio.</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 19rem;">
+                        <div class="card-body">
+                            <span class="icon-boxes">
+                                <i class="fa-solid fa-boxes-stacked"></i>
+                                <h5 class="card-title">Gestão de Estoque</h5>
+                            </span>
+                            <p class="card-text">Controle compras, vendas, movimentações e transferências de produtos para otimizar o fluxo de mercadorias.</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 19rem;">
+                        <div class="card-body">
+                            <span class="icon-dollar">
+                                <i class="fa-solid fa-file-invoice-dollar"></i>
+                                <h5 class="card-title">Emissão de Boletos</h5>
+                            </span>
+                            <p class="card-text">Emita boletos de forma rápida e totalmente online, sem taxas adicionais ou complicações.</p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 19rem;">
+                        <div class="card-body">
+                            <span class="icon-calendar">
+                                <i class="fa-solid fa-calendar-check"></i>
+                                <h5 class="card-title">Agenda e Controle Financeiro</h5>
+                            </span>
+                            <p class="card-text">Automatize cobranças recorrentes, gerencie o fluxo de caixa, contas a pagar e receber, e organize compromissos importantes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="container-fluid planos" id="ponto-planos">
             <div class="text-center">

@@ -12,12 +12,13 @@
                 <p>
                     Estamos sempre em busca de pessoas que compartilhem nossos valores e que
                     sejam apaixonadas por tecnologia e inovação. Se você é uma dessas pessoas
-                    e deseja fazer parte de uma equipe que valoriza a criatividade e a inova
-                    ção, entre em contato conosco!
+                    e deseja fazer parte de uma equipe que valoriza a criatividade e a inovação,
+                    entre em contato conosco!
                 </p>
             </div>
         </div>
     </div>
 </main>
+
 <?= view('./footer/index.php') ?>
 
