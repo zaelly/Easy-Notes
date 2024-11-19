@@ -76,82 +76,86 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid row col-icons">
-            <h1>NOSSO SISTEMA DÁ SEGURANÇA ESTABILIDADE PARA O SEU NEGÓCIO</h1>
-                <div class="icon-ifood align-items-center col-lg-2">
-                    <div class="icon">
-                        <i class="fa-solid fa-pizza-slice"></i>
+        <div class=" container align-items-center container-fluid">
+            <div class="row col-icons">
+                <h1>NOSSO SISTEMA DÁ SEGURANÇA ESTABILIDADE PARA O SEU NEGÓCIO</h1>
+                <div class="icones">
+                    <div class="icon-ifood align-items-center col-lg-2 col-md-2 col-sm-2">
+                        <div class="icon">
+                            <i class="fa-solid fa-pizza-slice"></i>
+                        </div>
+                        <span>IFOOD</span>
                     </div>
-                    <span>IFOOD</span>
+                    <div class="icon-mercados align-items-center col-lg-2 col-md-2 col-sm-2">
+                        <div class="icon">
+                            <i class="fa-solid fa-shop"></i>
+                        </div>
+                        <span>MERCADOS</span>
+                    </div>
+                    <div class="icon-lojas align-items-center col-lg-2 col-md-2 col-sm-2">
+                        <div class="icon">
+                            <i class="fa-solid fa-utensils"></i>
+                        </div>
+                        <span>BARES E RESTAURANTES</span>
+                    </div>
                 </div>
-                <div class="icon-mercados align-items-center col-lg-2">
-                    <div class="icon">
-                        <i class="fa-solid fa-shop"></i>
-                    </div>
-                    <span>MERCADOS</span>
-                </div>
-                <div class="icon-lojas align-items-center col-lg-2">
-                    <div class="icon">
-                        <i class="fa-solid fa-utensils"></i>
-                    </div>
-                    <span>BARES E RESTAURANTES</span>
-                </div>
-            <div class="container-fluid row gestao-container">
-                <h1>Conheça o que nosso software de gestão
-                pode fazer pela sua empresa</h1>
-                <div class="row col-lg-8 gestao-content">
-                    <div class="card" style="width: 19rem;">
-                        <div class="card-body">
-                            <span class="icon-venda">
-                                <i class="fa-solid fa-cash-register"></i>
-                                <h5 class="card-title">Vendas</h5>
-                            </span>
-                            <p class="card-text">Venda pelo PDV em menos de 1 minuto, monitore as vendas em tempo real, realize orçamentos e acompanhe o histórico de clientes.</p>
+                <div class="container-fluid row gestao-container">
+                    <h1>Conheça o que nosso software de gestão
+                    pode fazer pela sua empresa</h1>
+                    <div class="row col-lg-12 gestao-content">
+                        <div class="card" style="width: 22rem;">
+                            <div class="card-body">
+                                <span class="icon-venda">
+                                    <i class="fa-solid fa-cash-register"></i>
+                                    <h5 class="card-title">Vendas</h5>
+                                </span>
+                                <p class="card-text">Venda pelo PDV em menos de 1 minuto, monitore as vendas em tempo real, realize orçamentos e acompanhe o histórico de clientes.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card" style="width: 19rem;">
-                        <div class="card-body">
-                            <span class="icon-emissao">                            
-                                <i class="fa-solid fa-receipt"></i>
-                                <h5 class="card-title">Emissão de Notas Fiscais</h5>
-                            </span>
-                            <p class="card-text">Emita notas fiscais (NF-e, NFC-e) de forma rápida e prática, com armazenamento seguro e simplificado.</p>
+                        <div class="card" style="width: 22rem;">
+                            <div class="card-body">
+                                <span class="icon-emissao">                            
+                                    <i class="fa-solid fa-receipt"></i>
+                                    <h5 class="card-title">Emissão de Notas Fiscais</h5>
+                                </span>
+                                <p class="card-text">Emita notas fiscais (NF-e, NFC-e) de forma rápida e prática, com armazenamento seguro e simplificado.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card" style="width: 19rem;">
-                        <div class="card-body">
-                            <span class="icon-receipt">
-                                <i class="fa-solid fa-file-invoice"></i>
-                                <h5 class="card-title">Relatórios Detalhados</h5>
-                            </span>
-                            <p class="card-text">Acesse relatórios financeiros, cadastros, vendas, estoque e muito mais para uma visão completa do seu negócio.</p>
+                        <div class="card" style="width: 22rem;">
+                            <div class="card-body">
+                                <span class="icon-receipt">
+                                    <i class="fa-solid fa-file-invoice"></i>
+                                    <h5 class="card-title">Relatórios Detalhados</h5>
+                                </span>
+                                <p class="card-text">Acesse relatórios financeiros, cadastros, vendas, estoque e muito mais para uma visão completa do seu negócio.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card" style="width: 19rem;">
-                        <div class="card-body">
-                            <span class="icon-boxes">
-                                <i class="fa-solid fa-boxes-stacked"></i>
-                                <h5 class="card-title">Gestão de Estoque</h5>
-                            </span>
-                            <p class="card-text">Controle compras, vendas, movimentações e transferências de produtos para otimizar o fluxo de mercadorias.</p>
+                        <div class="card" style="width: 22rem;">
+                            <div class="card-body">
+                                <span class="icon-boxes">
+                                    <i class="fa-solid fa-boxes-stacked"></i>
+                                    <h5 class="card-title">Gestão de Estoque</h5>
+                                </span>
+                                <p class="card-text">Controle compras, vendas, movimentações e transferências de produtos para otimizar o fluxo de mercadorias.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card" style="width: 19rem;">
-                        <div class="card-body">
-                            <span class="icon-dollar">
-                                <i class="fa-solid fa-file-invoice-dollar"></i>
-                                <h5 class="card-title">Emissão de Boletos</h5>
-                            </span>
-                            <p class="card-text">Emita boletos de forma rápida e totalmente online, sem taxas adicionais ou complicações.</p>
+                        <div class="card" style="width: 22rem;">
+                            <div class="card-body">
+                                <span class="icon-dollar">
+                                    <i class="fa-solid fa-file-invoice-dollar"></i>
+                                    <h5 class="card-title">Emissão de Boletos</h5>
+                                </span>
+                                <p class="card-text">Emita boletos de forma rápida e totalmente online, sem taxas adicionais ou complicações.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card" style="width: 19rem;">
-                        <div class="card-body">
-                            <span class="icon-calendar">
-                                <i class="fa-solid fa-calendar-check"></i>
-                                <h5 class="card-title">Agenda e Controle Financeiro</h5>
-                            </span>
-                            <p class="card-text">Automatize cobranças recorrentes, gerencie o fluxo de caixa, contas a pagar e receber, e organize compromissos importantes.</p>
+                        <div class="card" style="width: 22rem;">
+                            <div class="card-body">
+                                <span class="icon-calendar">
+                                    <i class="fa-solid fa-calendar-check"></i>
+                                    <h5 class="card-title">Agenda e Controle Financeiro</h5>
+                                </span>
+                                <p class="card-text">Automatize cobranças recorrentes, gerencie o fluxo de caixa, contas a pagar e receber, e organize compromissos importantes.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -166,7 +170,7 @@
                 </div>
                 <div class="container align-items-center" id="infoSlideMensal">
                     <div class="row">
-                        <div class="cards" style="width: 10em;">
+                        <div class="cards" style="width: 10rem;">
                             <div class="card-body">
                                 <h5 class="card-title">Módulo Básico</h5>
                                 <span>
@@ -183,7 +187,7 @@
                                 </span>
                             </div>
                         </div>
-                        <div class="cards" style="width: 10em;">
+                        <div class="cards" style="width: 10rem;">
                             <div class="card-body">
                                 <h5 class="card-title">NFC</h5>
                                 <span>
@@ -204,7 +208,7 @@
                 </div>
                 <div class="container align-items-start" id="infoSlideAnual">
                 <div class="row">
-                        <div class="cards" style="width: 10em;">
+                        <div class="cards" style="width: 10rem;">
                             <div class="card-body">
                                 <h5 class="card-title">Módulo Básico</h5>
                                 <span>
@@ -221,7 +225,7 @@
                                 </span>
                             </div>
                         </div>
-                        <div class="cards" style="width: 10em;">
+                        <div class="cards" style="width: 10rem;">
                             <div class="card-body">
                                 <h5 class="card-title">NFCe</h5>
                                 <span>

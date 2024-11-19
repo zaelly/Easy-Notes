@@ -20,37 +20,53 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
-<?= view('./navbar/index.php') ?>
+<?= view('./navbar/navSupport.php') ?>
 <main>
-    <div class="container mt-5 container-contato">
-        <div class="row">
-           <h1>Entre em contato conosco</h1>
-
-           <div class="row">
-            <span>Envie nos um email para que possamos te ajudar melhor! Ou entre em contato por outro meio de comunicação disponivel</span>
-            <div class="col-6 col-sm-4">
-                <label for="nome">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="nome">Nome:</label>
-                <input type="nome" name="nome" id="nome">
+   <div class="content-container">
+      <div class="help-container mb-5">
+         <div class="input-group container">
+            <input type="text" class="form-control" id="help" placeholder="No que você precisa de ajuda?">
+            <span class="input-group-text" id="basic-addon2" onclick="spanBtn()">               
+               <i class="fa-solid fa-magnifying-glass"></i>
+            </span>
+         </div>
+      </div>
+      <section class="container-contato">
+         <div class="container">
+            <h4>Entre em contato com o nosso suporte!</h4>
+            <div class="icons-contact">
+               <div class="contact-item">
+                  <i class="fa-solid fa-phone icon"></i>
+                  <span class="span-text">(61) 9 9305-0211</span>
+               </div>
+               <a href="http://" class="contact-item">
+                  <i class="fa-brands fa-whatsapp icon"></i>
+                  <span class="span-text">Whatsapp</span>
+               </a>
+               <div class="contact-item">
+                  <i class="fa-solid fa-desktop icon"></i>
+                  <span class="span-text">Acesso Remoto</span>
+               </div>
             </div>
-                <div class="icons-contact">
-                    <div class="col-6 col-sm-4">
-                        <i class="fa-solid fa-phone"></i>
-                        <span>(61)9 9305-0211</span>
-                    </div>
-                    <div class="col-6 col-sm-4">
-                        <i class="fa-brands fa-whatsapp"></i>
-                        <span>Whatsapp</span>
-                    </div>
-                    <div class="col-6 col-sm-4">
-                        <i class="fa-solid fa-desktop"></i>
-                        <span>Acesso Remoto</span>
-                    </div>
-                </div>
-           </div>
-        </div>
-    </div>
+         </div>
+         <div class="container">
+            <h4>Ou envie-nos um email!</h4>
+            <div class="form">
+               <form class="col-md-6">
+                  <div class="mb-3">
+                     <label for="email" class="form-label">Email:</label>
+                     <input type="email" class="form-control" id="email" placeholder="nome@exemplo.com">
+                     </div>
+                     <div class="mb-3">
+                     <label for="textarea" class="form-label">Assunto:</label>
+                     <textarea class="form-control" id="textarea" rows="3"></textarea>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </section>
+   </div>
 </main>
+
 <?= view('./footer/index.php') ?>
 

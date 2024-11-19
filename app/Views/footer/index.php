@@ -14,7 +14,7 @@
     <link href="/assets/css/footer.css" rel="stylesheet" type="text/css"/>
     <script src="/assets/javascript/footer.js" defer type="text/js"></script>
 <footer>
-        <div class="container text-center">
+        <div class="footer text-center">
             <div class="row">
                 <div class="col-md-4">
                     <h2>Contato</h2>
@@ -30,6 +30,12 @@
                             <span><a href="http://">financeiro@notasfacil.com</a></span>
                         </div>
                     </div>
+                    <div class="columns">
+                        <div class="icons-footer">
+                            <i class="fa-brands fa-whatsapp icon-footer"></i>
+                            <span><a href="http://">Whatsapp</a></span>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <h2>Redes Sociais</h2>
@@ -41,8 +47,8 @@
                     </div>
                     <div class="columns">
                         <div class="icons-footer">
-                            <i class="fa-brands fa-whatsapp icon-footer"></i>
-                            <span><a href="http://">Whatsapp</a></span>
+                            <i class="fa-brands fa-facebook icon-footer"></i>
+                            <span><a href="http://">Facebook</a></span>
                         </div>
                     </div>
                 </div>

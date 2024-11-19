@@ -24,12 +24,20 @@ html {
     text-align: center;
     color:#008cff;
     align-items: center;
-    margin:2rem 0;
 }
 
 .col-icons h1{
     font-weight: bold;
     padding: 1rem;
+    color: rgb(0, 225, 255) !important;
+}
+
+.icones{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem 0;
+    align-items: center;
 }
 .text-info p{
     color: #fff;
@@ -277,16 +285,6 @@ video{
     color: #fff;
 }
 
-.icon-venda svg,
-.icon-emissao svg,
-.icon-receipt svg,
-.icon-boxes svg,
-.icon-dollar svg,
-.icon-calendar svg {
-    width: 2rem !important;
-    text-align:center;
-}
-
 .card{
     border-radius: 10px;
     width: 1rem;
@@ -315,6 +313,10 @@ video{
     color: #fff;
 }
 
+.container-home{
+    min-height: calc(100vh - 14rem);
+}
+
 .gestao-container{
     display: flex;
     padding: 1rem;
@@ -336,6 +338,15 @@ video{
 
 .card{
     cursor: pointer;
+}
+
+.gestao-container h5{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.gestao-container p{
+ color: #202020;
 }
 
 .card:hover{
@@ -373,6 +384,7 @@ video{
 .gestao-container{
     display: flex;
     padding: 1rem;
+    margin-top: 2rem !important;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -390,19 +402,9 @@ video{
 .icon-dollar,
 .icon-calendar{
     display: flex;
-    margin-left: 0;
+    margin-left: 0 !important;
 }
 
-.icon-venda svg, 
-.icon-emissao svg, 
-.icon-receipt svg, 
-.icon-boxes svg, 
-.icon-dollar svg, 
-.icon-calendar svg {
-    margin-top: -.5rem;
-    margin-right: 1rem;
-    margin-left: -1rem;
-}
 .card-body{
     display: flex;
     flex-direction: column;

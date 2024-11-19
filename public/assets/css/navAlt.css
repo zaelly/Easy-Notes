@@ -10,12 +10,8 @@ body{
     overflow-x: hidden;
 }
 
-nav{
-    background-color: #00d9ff !important;
-}
-
 .container-header{
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -34,16 +30,16 @@ a:hover, li:hover{
     color:#cecdff !important;
 }
 
-.logo{
-    font-weight: 700;
+
+.logo2{
+    font-weight: 800;
     font-style: normal;
     color: #ffff;
 }
 
-.logo:hover{
+.logo2:hover{
     color: #d0cfff !important;
 }
-
 
 .nav-itens{
     margin-left: 3rem !important;
@@ -51,11 +47,6 @@ a:hover, li:hover{
     font-weight: 500;
 }
 
-.dropdown-item{
-    color:#020072 !important;
-    font-weight: 600;
+.logoSpan{
+    font-weight:200;
 }
-.dropdown-item:hover{
-    color:#000000 !important;
-}
-
