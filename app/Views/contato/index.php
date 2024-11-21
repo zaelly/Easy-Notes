@@ -21,6 +21,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
 <?= view('./navbar/navSupport.php') ?>
+<?= view("./loopingCarregamento/index.php")?>
 <main>
    <div class="content-container">
       <div class="help-container mb-5">
@@ -39,10 +40,12 @@
                   <i class="fa-solid fa-phone icon"></i>
                   <span class="span-text">(61) 9 9305-0211</span>
                </div>
-               <a href="http://" class="contact-item">
-                  <i class="fa-brands fa-whatsapp icon"></i>
-                  <span class="span-text">Whatsapp</span>
-               </a>
+               <div class="contact-item">
+                  <a target="_blank" href="https://w.app/Q6koYj">
+                     <i class="fa-brands fa-whatsapp icon"></i>
+                     <span class="span-text">Whatsapp</span>
+                  </a>
+               </div>
                <div class="contact-item">
                   <i class="fa-solid fa-desktop icon"></i>
                   <span class="span-text">Acesso Remoto</span>
@@ -59,7 +62,7 @@
                      </div>
                      <div class="mb-3">
                      <label for="textarea" class="form-label">Assunto:</label>
-                     <textarea class="form-control" id="textarea" rows="3"></textarea>
+                     <textarea class="form-control" id="textarea" placeholder="digite aqui"></textarea>
                   </div>
                </form>
             </div>

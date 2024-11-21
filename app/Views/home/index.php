@@ -32,6 +32,8 @@
 <body>
     <!-- Inclui a navbar -->
     <?= view('./navbar/index.php') ?>
+    <?= view("./loopingCarregamento/index.php")?>
+
 <main>
     <div class="container-home">
         <div class="invict row">

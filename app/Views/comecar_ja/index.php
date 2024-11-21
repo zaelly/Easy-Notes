@@ -26,6 +26,7 @@ use PharIo\Manifest\Url;
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 <?= view('./navbar/index.php') ?>
+<?= view("./loopingCarregamento/index.php")?>
 <main>
     <div class="container main-container mt-5" id="comece-ja">
         <div class="container-fluid">

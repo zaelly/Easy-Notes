@@ -23,7 +23,7 @@
 
 <nav class="navbar-expand-lg bg-body-tertiary navbar container-header bg-dark border-bottom border-body">
     <div class="container-fluid nav-itens">
-        <a class="navbar-brand logo2" href="#">Nota Fácil <span class="logoSpan">Suporte</span></a>
+        <a class="navbar-brand logo2" href="<?= site_url('/') ?>">Nota Fácil <span class="logoSpan">Suporte</span></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>

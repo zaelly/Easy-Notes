@@ -33,7 +33,6 @@ function clickBtn1(){
     btn1.style.color = "#fff";
     btn1.style.borderRadius = '2rem';
     infoSlideMensal.style.display = 'block';
-    console.log("teste1")
 
 };
 
@@ -47,7 +46,6 @@ function clickBtn2(){
     btn2.style.background = '#006eb3';
     btn2.style.borderRadius = '2rem';
     infoSlideAnual.style.display = 'block';
-    console.log("teste2")
 
 };
 
@@ -79,3 +77,22 @@ function loopAnimation(){
 
 setInterval(loopAnimation, 11000);
 loopAnimation();
+
+document.addEventListener("DOMContentLoaded", function() {
+    let loop = document.querySelector("#loop");
+
+    if (loop) {
+        var performanceTiming = window.performance.timing;
+        var loadTime = performanceTiming.loadEventEnd - performanceTiming.navigationStart;
+
+        if (loadTime >= 2000) {
+            loop.style.display = "block";
+        } else {
+            loop.style.display = "none";
+        }
+    }
+
+    setTimeout(() => {
+        document.querySelector("main").style.display = "block";
+    }, 1000); // Delay by 1 second
+});

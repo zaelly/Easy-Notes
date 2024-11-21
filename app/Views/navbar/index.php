@@ -23,7 +23,7 @@
 
 <nav class="navbar bg-primary container-header navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid nav-itens">
-        <a class="navbar-brand logo" href="#">Nota Fácil</a>
+        <a class="navbar-brand logo" href="<?= site_url('/') ?>">Nota Fácil</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>

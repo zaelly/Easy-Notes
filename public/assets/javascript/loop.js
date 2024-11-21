@@ -1,14 +1,4 @@
-let textarea =  document.querySelector('#textarea');
-textarea.addEventListener('keyup', e =>{
-    let textHeight = e.target.scrollHeight;
-    console.log(textHeight);
-    textarea.style.height = `${textHeight}px`
-    if(textarea == ''){
-        textarea.style.height = `59px`;
-        textarea.value.innerText = ''
-    }
-})
-
+//se a pag demorar pra carregar vai aparecer esse evento
 document.addEventListener("DOMContentLoaded", function() {
     let loop = document.querySelector("#loop");
 

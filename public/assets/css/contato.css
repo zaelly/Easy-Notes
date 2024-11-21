@@ -94,3 +94,11 @@ section{
     color: white !important;
     border: 1px solid rgb(0, 225, 255) !important;
 }
+
+textarea, #email{
+    border: 3px solid rgb(0, 225, 255) !important;
+}
+
+textarea{
+    height: 40px;
+}
