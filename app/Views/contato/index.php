@@ -21,7 +21,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
 <?= view('./navbar/navSupport.php') ?>
-<?= view("./loopingCarregamento/index.php")?>
 <main>
    <div class="content-container">
       <div class="help-container mb-5">
