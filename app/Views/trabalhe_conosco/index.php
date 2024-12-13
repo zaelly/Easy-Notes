@@ -2,7 +2,6 @@
 <link rel="stylesheet" href="work-us.css" type="text/css">
 
 <?= view('./navbar/index.php') ?>
-<?= view("./loopingCarregamento/index.php")?>
 
 <main>
     <div class="container-fluid" id="container-work">

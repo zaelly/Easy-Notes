@@ -40,7 +40,7 @@
                   <span class="span-text">(61) 9 9305-0211</span>
                </div>
                <div class="contact-item">
-                  <a target="_blank" href="https://w.app/Q6koYj">
+                  <a target="_blank" href="https://wa.me/062991583131">
                      <i class="fa-brands fa-whatsapp icon"></i>
                      <span class="span-text">Whatsapp</span>
                   </a>

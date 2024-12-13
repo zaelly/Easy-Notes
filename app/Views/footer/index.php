@@ -33,7 +33,7 @@
                     <div class="columns">
                         <div class="icons-footer">
                             <i class="fa-brands fa-whatsapp icon-footer"></i>
-                            <span><a href="https://w.app/Q6koYj">Whatsapp</a></span>
+                            <span><a href="https://wa.me/062991583131">Whatsapp</a></span>
                         </div>
                     </div>
                 </div>
